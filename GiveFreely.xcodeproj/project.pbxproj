@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F5B19B32B66CDDA00E428EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B19B22B66CDDA00E428EC /* AppDelegate.swift */; };
+		2F5B19B72B66CDDA00E428EC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19B52B66CDDA00E428EC /* Main.html */; };
+		2F5B19B92B66CDDA00E428EC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19B82B66CDDA00E428EC /* Icon.png */; };
+		2F5B19BB2B66CDDA00E428EC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19BA2B66CDDA00E428EC /* Style.css */; };
+		2F5B19BD2B66CDDA00E428EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B19BC2B66CDDA00E428EC /* SceneDelegate.swift */; };
+		2F5B19BF2B66CDDA00E428EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B19BE2B66CDDA00E428EC /* ViewController.swift */; };
+		2F5B19C22B66CDDA00E428EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19C02B66CDDA00E428EC /* LaunchScreen.storyboard */; };
+		2F5B19C52B66CDDA00E428EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19C32B66CDDA00E428EC /* Main.storyboard */; };
+		2F5B19DB2B66CDDC00E428EC /* GiveFreelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B19DA2B66CDDC00E428EC /* GiveFreelyUITests.swift */; };
+		2F5B19DD2B66CDDC00E428EC /* GiveFreelyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B19DC2B66CDDC00E428EC /* GiveFreelyUITestsLaunchTests.swift */; };
+		2F5B19E32B66CDDC00E428EC /* GiveFreely Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2F5B19E22B66CDDC00E428EC /* GiveFreely Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2F5B19E82B66CDDC00E428EC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B19E72B66CDDC00E428EC /* SafariWebExtensionHandler.swift */; };
+		2F5B19EB2B66CDDC00E428EC /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19EA2B66CDDC00E428EC /* _locales */; };
+		2F5B19ED2B66CDDC00E428EC /* images in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19EC2B66CDDC00E428EC /* images */; };
+		2F5B19EF2B66CDDC00E428EC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19EE2B66CDDC00E428EC /* manifest.json */; };
+		2F5B19F12B66CDDC00E428EC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19F02B66CDDC00E428EC /* background.js */; };
+		2F5B19F32B66CDDC00E428EC /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19F22B66CDDC00E428EC /* content.js */; };
+		2F5B19F52B66CDDC00E428EC /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19F42B66CDDC00E428EC /* popup.html */; };
+		2F5B19F72B66CDDC00E428EC /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19F62B66CDDC00E428EC /* popup.css */; };
+		2F5B19F92B66CDDC00E428EC /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19F82B66CDDC00E428EC /* popup.js */; };
+		2F5B19FB2B66CDDC00E428EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5B19C62B66CDDC00E428EC /* Assets.xcassets */; };
+		2F5B1A722B66E54100E428EC /* ExtensionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B1A712B66E54100E428EC /* ExtensionRequest.swift */; };
+		2F5B1A752B6726EC00E428EC /* GiveFreelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B19D02B66CDDC00E428EC /* GiveFreelyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F5B19CD2B66CDDC00E428EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F5B19A72B66CDDA00E428EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F5B19AE2B66CDDA00E428EC;
+			remoteInfo = GiveFreely;
+		};
+		2F5B19D72B66CDDC00E428EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F5B19A72B66CDDA00E428EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F5B19AE2B66CDDA00E428EC;
+			remoteInfo = GiveFreely;
+		};
+		2F5B19E42B66CDDC00E428EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F5B19A72B66CDDA00E428EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F5B19E12B66CDDC00E428EC;
+			remoteInfo = "GiveFreely Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F5B1A012B66CDDC00E428EC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2F5B19E32B66CDDC00E428EC /* GiveFreely Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F5B19AF2B66CDDA00E428EC /* GiveFreely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiveFreely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5B19B22B66CDDA00E428EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F5B19B62B66CDDA00E428EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		2F5B19B82B66CDDA00E428EC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2F5B19BA2B66CDDA00E428EC /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		2F5B19BC2B66CDDA00E428EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F5B19BE2B66CDDA00E428EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F5B19C12B66CDDA00E428EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F5B19C42B66CDDA00E428EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F5B19C62B66CDDC00E428EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F5B19C72B66CDDC00E428EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5B19CC2B66CDDC00E428EC /* GiveFreelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiveFreelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5B19D02B66CDDC00E428EC /* GiveFreelyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveFreelyTests.swift; sourceTree = "<group>"; };
+		2F5B19D62B66CDDC00E428EC /* GiveFreelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiveFreelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5B19DA2B66CDDC00E428EC /* GiveFreelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveFreelyUITests.swift; sourceTree = "<group>"; };
+		2F5B19DC2B66CDDC00E428EC /* GiveFreelyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveFreelyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F5B19E22B66CDDC00E428EC /* GiveFreely Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GiveFreely Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5B19E72B66CDDC00E428EC /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		2F5B19EA2B66CDDC00E428EC /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		2F5B19EC2B66CDDC00E428EC /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		2F5B19EE2B66CDDC00E428EC /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		2F5B19F02B66CDDC00E428EC /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		2F5B19F22B66CDDC00E428EC /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		2F5B19F42B66CDDC00E428EC /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		2F5B19F62B66CDDC00E428EC /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		2F5B19F82B66CDDC00E428EC /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		2F5B19FA2B66CDDC00E428EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5B1A712B66E54100E428EC /* ExtensionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F5B19AC2B66CDDA00E428EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5B19C92B66CDDC00E428EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5B19D32B66CDDC00E428EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5B19DF2B66CDDC00E428EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F5B19A62B66CDDA00E428EC = {
+			isa = PBXGroup;
+			children = (
+				2F5B19B12B66CDDA00E428EC /* GiveFreely */,
+				2F5B19CF2B66CDDC00E428EC /* GiveFreelyTests */,
+				2F5B19D92B66CDDC00E428EC /* GiveFreelyUITests */,
+				2F5B19E62B66CDDC00E428EC /* GiveFreely Extension */,
+				2F5B19B02B66CDDA00E428EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F5B19B02B66CDDA00E428EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F5B19AF2B66CDDA00E428EC /* GiveFreely.app */,
+				2F5B19CC2B66CDDC00E428EC /* GiveFreelyTests.xctest */,
+				2F5B19D62B66CDDC00E428EC /* GiveFreelyUITests.xctest */,
+				2F5B19E22B66CDDC00E428EC /* GiveFreely Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F5B19B12B66CDDA00E428EC /* GiveFreely */ = {
+			isa = PBXGroup;
+			children = (
+				2F5B19B22B66CDDA00E428EC /* AppDelegate.swift */,
+				2F5B19BC2B66CDDA00E428EC /* SceneDelegate.swift */,
+				2F5B19BE2B66CDDA00E428EC /* ViewController.swift */,
+				2F5B19C02B66CDDA00E428EC /* LaunchScreen.storyboard */,
+				2F5B19C32B66CDDA00E428EC /* Main.storyboard */,
+				2F5B19C62B66CDDC00E428EC /* Assets.xcassets */,
+				2F5B19C72B66CDDC00E428EC /* Info.plist */,
+				2F5B19B42B66CDDA00E428EC /* Resources */,
+			);
+			path = GiveFreely;
+			sourceTree = "<group>";
+		};
+		2F5B19B42B66CDDA00E428EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F5B19B52B66CDDA00E428EC /* Main.html */,
+				2F5B19B82B66CDDA00E428EC /* Icon.png */,
+				2F5B19BA2B66CDDA00E428EC /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F5B19CF2B66CDDC00E428EC /* GiveFreelyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F5B19D02B66CDDC00E428EC /* GiveFreelyTests.swift */,
+			);
+			path = GiveFreelyTests;
+			sourceTree = "<group>";
+		};
+		2F5B19D92B66CDDC00E428EC /* GiveFreelyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F5B19DA2B66CDDC00E428EC /* GiveFreelyUITests.swift */,
+				2F5B19DC2B66CDDC00E428EC /* GiveFreelyUITestsLaunchTests.swift */,
+			);
+			path = GiveFreelyUITests;
+			sourceTree = "<group>";
+		};
+		2F5B19E62B66CDDC00E428EC /* GiveFreely Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2F5B1A702B66E53A00E428EC /* Models */,
+				2F5B19E72B66CDDC00E428EC /* SafariWebExtensionHandler.swift */,
+				2F5B19FA2B66CDDC00E428EC /* Info.plist */,
+				2F5B19E92B66CDDC00E428EC /* Resources */,
+			);
+			path = "GiveFreely Extension";
+			sourceTree = "<group>";
+		};
+		2F5B19E92B66CDDC00E428EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F5B19EA2B66CDDC00E428EC /* _locales */,
+				2F5B19EC2B66CDDC00E428EC /* images */,
+				2F5B19EE2B66CDDC00E428EC /* manifest.json */,
+				2F5B19F02B66CDDC00E428EC /* background.js */,
+				2F5B19F22B66CDDC00E428EC /* content.js */,
+				2F5B19F42B66CDDC00E428EC /* popup.html */,
+				2F5B19F62B66CDDC00E428EC /* popup.css */,
+				2F5B19F82B66CDDC00E428EC /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F5B1A702B66E53A00E428EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F5B1A712B66E54100E428EC /* ExtensionRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F5B19AE2B66CDDA00E428EC /* GiveFreely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5B1A022B66CDDC00E428EC /* Build configuration list for PBXNativeTarget "GiveFreely" */;
+			buildPhases = (
+				2F5B19AB2B66CDDA00E428EC /* Sources */,
+				2F5B19AC2B66CDDA00E428EC /* Frameworks */,
+				2F5B19AD2B66CDDA00E428EC /* Resources */,
+				2F5B1A012B66CDDC00E428EC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F5B19E52B66CDDC00E428EC /* PBXTargetDependency */,
+			);
+			name = GiveFreely;
+			productName = GiveFreely;
+			productReference = 2F5B19AF2B66CDDA00E428EC /* GiveFreely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F5B19CB2B66CDDC00E428EC /* GiveFreelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5B1A052B66CDDC00E428EC /* Build configuration list for PBXNativeTarget "GiveFreelyTests" */;
+			buildPhases = (
+				2F5B19C82B66CDDC00E428EC /* Sources */,
+				2F5B19C92B66CDDC00E428EC /* Frameworks */,
+				2F5B19CA2B66CDDC00E428EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F5B19CE2B66CDDC00E428EC /* PBXTargetDependency */,
+			);
+			name = GiveFreelyTests;
+			productName = GiveFreelyTests;
+			productReference = 2F5B19CC2B66CDDC00E428EC /* GiveFreelyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F5B19D52B66CDDC00E428EC /* GiveFreelyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5B1A082B66CDDC00E428EC /* Build configuration list for PBXNativeTarget "GiveFreelyUITests" */;
+			buildPhases = (
+				2F5B19D22B66CDDC00E428EC /* Sources */,
+				2F5B19D32B66CDDC00E428EC /* Frameworks */,
+				2F5B19D42B66CDDC00E428EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F5B19D82B66CDDC00E428EC /* PBXTargetDependency */,
+			);
+			name = GiveFreelyUITests;
+			productName = GiveFreelyUITests;
+			productReference = 2F5B19D62B66CDDC00E428EC /* GiveFreelyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2F5B19E12B66CDDC00E428EC /* GiveFreely Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5B19FE2B66CDDC00E428EC /* Build configuration list for PBXNativeTarget "GiveFreely Extension" */;
+			buildPhases = (
+				2F5B19DE2B66CDDC00E428EC /* Sources */,
+				2F5B19DF2B66CDDC00E428EC /* Frameworks */,
+				2F5B19E02B66CDDC00E428EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GiveFreely Extension";
+			productName = "GiveFreely Extension";
+			productReference = 2F5B19E22B66CDDC00E428EC /* GiveFreely Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F5B19A72B66CDDA00E428EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2F5B19AE2B66CDDA00E428EC = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2F5B19CB2B66CDDC00E428EC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2F5B19AE2B66CDDA00E428EC;
+					};
+					2F5B19D52B66CDDC00E428EC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2F5B19AE2B66CDDA00E428EC;
+					};
+					2F5B19E12B66CDDC00E428EC = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F5B19AA2B66CDDA00E428EC /* Build configuration list for PBXProject "GiveFreely" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F5B19A62B66CDDA00E428EC;
+			productRefGroup = 2F5B19B02B66CDDA00E428EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F5B19AE2B66CDDA00E428EC /* GiveFreely */,
+				2F5B19CB2B66CDDC00E428EC /* GiveFreelyTests */,
+				2F5B19D52B66CDDC00E428EC /* GiveFreelyUITests */,
+				2F5B19E12B66CDDC00E428EC /* GiveFreely Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F5B19AD2B66CDDA00E428EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5B19B92B66CDDA00E428EC /* Icon.png in Resources */,
+				2F5B19C52B66CDDA00E428EC /* Main.storyboard in Resources */,
+				2F5B19C22B66CDDA00E428EC /* LaunchScreen.storyboard in Resources */,
+				2F5B19B72B66CDDA00E428EC /* Main.html in Resources */,
+				2F5B19FB2B66CDDC00E428EC /* Assets.xcassets in Resources */,
+				2F5B19BB2B66CDDA00E428EC /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5B19CA2B66CDDC00E428EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5B19D42B66CDDC00E428EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5B19E02B66CDDC00E428EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5B19F12B66CDDC00E428EC /* background.js in Resources */,
+				2F5B19F72B66CDDC00E428EC /* popup.css in Resources */,
+				2F5B19F52B66CDDC00E428EC /* popup.html in Resources */,
+				2F5B19ED2B66CDDC00E428EC /* images in Resources */,
+				2F5B19EF2B66CDDC00E428EC /* manifest.json in Resources */,
+				2F5B19EB2B66CDDC00E428EC /* _locales in Resources */,
+				2F5B19F32B66CDDC00E428EC /* content.js in Resources */,
+				2F5B19F92B66CDDC00E428EC /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F5B19AB2B66CDDA00E428EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5B19BF2B66CDDA00E428EC /* ViewController.swift in Sources */,
+				2F5B19B32B66CDDA00E428EC /* AppDelegate.swift in Sources */,
+				2F5B19BD2B66CDDA00E428EC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5B19C82B66CDDC00E428EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5B1A752B6726EC00E428EC /* GiveFreelyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5B19D22B66CDDC00E428EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5B19DD2B66CDDC00E428EC /* GiveFreelyUITestsLaunchTests.swift in Sources */,
+				2F5B19DB2B66CDDC00E428EC /* GiveFreelyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5B19DE2B66CDDC00E428EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5B19E82B66CDDC00E428EC /* SafariWebExtensionHandler.swift in Sources */,
+				2F5B1A722B66E54100E428EC /* ExtensionRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F5B19CE2B66CDDC00E428EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F5B19AE2B66CDDA00E428EC /* GiveFreely */;
+			targetProxy = 2F5B19CD2B66CDDC00E428EC /* PBXContainerItemProxy */;
+		};
+		2F5B19D82B66CDDC00E428EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F5B19AE2B66CDDA00E428EC /* GiveFreely */;
+			targetProxy = 2F5B19D72B66CDDC00E428EC /* PBXContainerItemProxy */;
+		};
+		2F5B19E52B66CDDC00E428EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F5B19E12B66CDDC00E428EC /* GiveFreely Extension */;
+			targetProxy = 2F5B19E42B66CDDC00E428EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F5B19B52B66CDDA00E428EC /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5B19B62B66CDDA00E428EC /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		2F5B19C02B66CDDA00E428EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5B19C12B66CDDA00E428EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2F5B19C32B66CDDA00E428EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5B19C42B66CDDA00E428EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F5B19FC2B66CDDC00E428EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F5B19FD2B66CDDC00E428EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F5B19FF2B66CDDC00E428EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GiveFreely Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GiveFreely Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.GiveFreely.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F5B1A002B66CDDC00E428EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GiveFreely Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GiveFreely Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.GiveFreely.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F5B1A032B66CDDC00E428EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiveFreely/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GiveFreely;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.GiveFreely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F5B1A042B66CDDC00E428EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiveFreely/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GiveFreely;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.GiveFreely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F5B1A062B66CDDC00E428EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.GiveFreelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiveFreely.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GiveFreely";
+			};
+			name = Debug;
+		};
+		2F5B1A072B66CDDC00E428EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.GiveFreelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiveFreely.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GiveFreely";
+			};
+			name = Release;
+		};
+		2F5B1A092B66CDDC00E428EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.GiveFreelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GiveFreely;
+			};
+			name = Debug;
+		};
+		2F5B1A0A2B66CDDC00E428EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.GiveFreelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GiveFreely;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F5B19AA2B66CDDA00E428EC /* Build configuration list for PBXProject "GiveFreely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5B19FC2B66CDDC00E428EC /* Debug */,
+				2F5B19FD2B66CDDC00E428EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5B19FE2B66CDDC00E428EC /* Build configuration list for PBXNativeTarget "GiveFreely Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5B19FF2B66CDDC00E428EC /* Debug */,
+				2F5B1A002B66CDDC00E428EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5B1A022B66CDDC00E428EC /* Build configuration list for PBXNativeTarget "GiveFreely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5B1A032B66CDDC00E428EC /* Debug */,
+				2F5B1A042B66CDDC00E428EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5B1A052B66CDDC00E428EC /* Build configuration list for PBXNativeTarget "GiveFreelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5B1A062B66CDDC00E428EC /* Debug */,
+				2F5B1A072B66CDDC00E428EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5B1A082B66CDDC00E428EC /* Build configuration list for PBXNativeTarget "GiveFreelyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5B1A092B66CDDC00E428EC /* Debug */,
+				2F5B1A0A2B66CDDC00E428EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F5B19A72B66CDDA00E428EC /* Project object */;
+}

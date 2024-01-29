@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <link rel="stylesheet" href="popup.css">
+    <title>GiveFreely</title>
+</head>
+<body>
+    <header>
+        <h1>GiveFreely</h1>
+    </header>
+
+    <section>
+        <h2> Adjust Text Size </h2>
+        <span> Font Size: <span id="fontSize">16</span>px </span>
+        <input type="range" id="textSizeSlider" min="10" max="30" step="1" value="16">
+        <br>
+
+        <button id="resetButton">Reset Text Size</button>
+        
+        <h2>Adjust Background Color</h2>
+          <span>Background Color: <input type="color" id="backgroundColorPicker" value="#ffffff"></span>
+        
+        <h2>Enter Keyword to Highlight</h2>
+          <input type="text" id="keywordInput" placeholder="Enter keyword...">
+          <br>
+          <button id="highlightButton">Highlight Keyword</button>
+    </section>
+    <script type="module" src="popup.js"></script>
+</body>
+</html>
